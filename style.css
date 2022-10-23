@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    overflow: scroll !important;
+}
+
+
+/* div.scroll {
+    margin:4px, 4px;
+    padding:4px;
+    background-color: green;
+    width: 500px;
+    height: 110px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+} */
+body, h1,h3{
+    color: azure;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.center {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+ img{
+    border-radius: 50%;
+    width: 100px;
+  }
+
+.down{
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
